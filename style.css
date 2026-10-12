@@ -1,0 +1,60 @@
+:root {
+  --fundal: #f4f6fb;
+  --card: #ffffff;
+  --text: #1f2430;
+  --text-secundar: #5b6475;
+  --accent: #4f46e5;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--fundal);
+  color: var(--text);
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+h1 { margin: 0; color: var(--accent); }
+
+.subtitlu { color: var(--text-secundar); }
+
+#cautare {
+  width: min(400px, 100%);
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #ccd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#perete {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem 2rem 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card .emoji { font-size: 2.2rem; }
+.card h2 { margin: 0.4rem 0 0.2rem; font-size: 1.15rem; }
+.card .rol { color: var(--accent); font-weight: 600; margin: 0; }
+.card .hobby { color: var(--text-secundar); margin: 0.5rem 0 0; }
+
+footer {
+  text-align: center;
+  color: var(--text-secundar);
+  padding: 1rem;
+}

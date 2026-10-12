@@ -1,0 +1,13 @@
+# Fișiere de sistem
+.DS_Store
+Thumbs.db
+
+# Editoare
+.vscode/
+.idea/
+*.swp
+
+# Fișiere locale / secrete - NU ajung niciodată pe GitHub
+.env
+*.log
+notite-personale.txt
